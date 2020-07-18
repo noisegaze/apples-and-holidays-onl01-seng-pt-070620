@@ -76,7 +76,6 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   collection =[]
 holiday_hash.each do |season,holiday|
-  binding.pry
     if season == :spring || season == :summer 
       season.each do |holiday,values|
      if   values.include?("BBQ") 

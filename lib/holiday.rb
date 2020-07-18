@@ -79,7 +79,7 @@ holiday_hash.each do |season,holiday|
   binding.pry
     if season == :spring || season == :summer 
       season each do |holiday,values|
-        values.include? "BBQ"
+        values.include?("BBQ")
       end 
     end   
   end     

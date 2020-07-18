@@ -81,6 +81,7 @@ holiday_hash.each do |season,holiday|
       season.each do |holiday,values|
      if   values.include?("BBQ") 
        collection << holiday
+        end 
       end 
     end   
   end     
